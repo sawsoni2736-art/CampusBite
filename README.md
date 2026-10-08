@@ -1,16 +1,58 @@
-# React + Vite
+# Campus Bite – Pre-Order Food System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Campus Bite is a web-based food pre-order system designed for college students. It allows students to browse the available food items, add items to their cart, place orders, and select a pickup time. The admin can manage food items and update order status.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Student Side
+- Student registration and login
+- Browse food menu
+- Add food items to cart
+- Update cart items
+- Select pickup time
+- Place food orders
+- View order status
+- View previous orders
+- Logout
 
-## React Compiler
+### Admin Side
+- Admin login
+- Manage food menu
+- Add and update food items
+- View student orders
+- Update order status
+- Manage food availability
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technology Used
 
-## Expanding the Oxlint configuration
+- React.js
+- Vite
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- HTML
+- CSS
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Project Modules
+
+1. Student Module
+2. Order Process Module
+3. Admin Module
+
+## Order Process
+
+Student selects food → Adds items to cart → Selects pickup time → Places order → Admin receives order → Admin updates order status → Student collects the order.
+
+## Purpose
+
+The main purpose of Campus Bite is to reduce waiting time and queues at the college canteen by allowing students to pre-order their food and collect it at the selected pickup time.
+
+## Project Status
+
+This project is developed as a college project for TYBCA Semester 5.
+
+## Developers
+
+TYBCA Students – Campus Bite Project
